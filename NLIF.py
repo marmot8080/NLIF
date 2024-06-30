@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-def nlif_register_api(key):
+def api_register(key):
     global client
     try:
         client = OpenAI(api_key = key)
