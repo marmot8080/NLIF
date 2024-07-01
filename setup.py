@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setuptools.setup(
-    name="nlif",
-    version="0.0.1",
+    name="NLIF",
+    version="0.0.2",
     author="marmot8080",
     author_email="marmot8080@gmail.com",
     description="using natural language as condition",
