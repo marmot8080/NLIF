@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setuptools.setup(
     name="NLIF",
-    version="0.0.2",
+    version="0.0.4",
     author="marmot8080",
     author_email="marmot8080@gmail.com",
     description="using natural language as condition",

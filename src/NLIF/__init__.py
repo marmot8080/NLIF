@@ -1,1 +1,1 @@
-from NLIF import *
+from .NLIF import *
