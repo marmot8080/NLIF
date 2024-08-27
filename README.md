@@ -16,12 +16,12 @@ pip install NLIF
 ```python
 from NLIF import *
 
-api_register("Your OpenAI API key")
+a = NLIF("Your OpenAI API key")
 
-if nlif('proposition'):
-    pass
+if a.nlif('proposition'):
+    print('True')
 else:
-    pass
+    print('False')
 ```
 
 # Contact
