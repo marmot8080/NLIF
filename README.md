@@ -16,9 +16,9 @@ pip install NLIF
 ```python
 from NLIF import *
 
-a = NLIF("Your OpenAI API key")
+ni = NLIF('Your OpenAI API key')
 
-if a.nlif('proposition'):
+if ni.nlif('Whales are mammals'):
     print('True')
 else:
     print('False')
