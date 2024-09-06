@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: NLIF
-Version: 0.0.4
+Version: 0.0.5
 Summary: using natural language as condition
 Home-page: https://github.com/marmot8080/NLIF
 Author: marmot8080
@@ -29,12 +29,12 @@ pip install NLIF
 ```python
 from NLIF import *
 
-api_register("Your OpenAI API key")
+ni = NLIF('Your OpenAI API key')
 
-if nlif('proposition'):
-    pass
+if ni.nlif('Whales are mammals'):
+    print('True')
 else:
-    pass
+    print('False')
 ```
 
 # Contact
