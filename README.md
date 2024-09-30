@@ -1,5 +1,5 @@
 # NLIF
-ChatGPT API를 이용하여 자연어 문장을 조건문으로써 활용할 수 있도록 해주는 프로젝트
+OpenAI API를 이용하여 자연어 문장을 조건문으로써 활용할 수 있도록 해주는 프로젝트
 (https://pypi.org/project/NLIF/)
 
 # 목차
